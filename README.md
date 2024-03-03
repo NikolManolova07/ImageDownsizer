@@ -17,7 +17,7 @@ This formula represents a weighted average of the values at the four corners of 
 **3. Test Results:**<br>
 
 The original largish image to experiment with has size as follows: 25 000 x 15 000 px. As the downscaling factor is a percentage of the original size, then we get the following size for width and height of the image regarding the downscaling factor:
-- 25% - 6250 x 3750 px
+- 25% - 6 250 x 3 750 px
 - 50% - 12 500 x 7500 px
 - 75% - 18 750 x 11 250 px<br>
 
