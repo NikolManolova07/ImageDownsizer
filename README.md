@@ -37,6 +37,7 @@ Bilinear Interpolation:<br>
 
 Parallel Loop:<br>
 - https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.parallel.for?view=net-8.0
+- https://dotnettutorials.net/lesson/parallel-for-method-csharp/
 - https://medium.com/@luisalexandre.rodrigues/c-parallel-programming-working-with-parallel-loops-part-i-6fedc922642b
 
 Image Processing:<br>
