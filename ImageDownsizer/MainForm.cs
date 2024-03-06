@@ -39,7 +39,7 @@ namespace ImageDownsizer
             }
 
             // Parse downscale factor from the TextBox.
-            if (!double.TryParse(downscaleFactorTextBox.Text, out double downscaleFactor))
+            if (!double.TryParse(downscaleFactorTextBox.Text, out double downscaleFactor) || downscaleFactor <= 0 || downscaleFactor > 100)
             {
                 MessageBox.Show("Invalid downscale factor. Please enter a valid number.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
